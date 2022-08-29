@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Brian",
+      "empresa": "Colob",
+      "email": "Brian@gmail.com",
+      "telefono": "6674422224",
+      "notas": "Cualquier cosa",
+      "id": 1
+    },
+    {
+      "nombre": "Jopse",
+      "empresa": "Colob2",
+      "email": "Jopse@gmail.com",
+      "telefono": "2132421",
+      "notas": "Cualquier cosa23123",
+      "id": 2
+    },
+    {
+      "nombre": "Casas",
+      "empresa": "Linkedin",
+      "email": "briansanchezaguilar@gmail.com",
+      "telefono": "66744222",
+      "notas": "",
+      "id": 3
+    }
+  ]
+}

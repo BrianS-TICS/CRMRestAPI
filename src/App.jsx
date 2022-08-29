@@ -6,6 +6,7 @@ import Inicio from './pages/Inicio';
 
 import NuevoCliente from './pages/NuevoCliente';
 import EditarClientes from './pages/EditarClientes';
+import VerCliente from './pages/VerCliente';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
 
             //* :id = sirve como placeholder y escuchar por cada dato a colocar
             <Route path='editar:id' element={<EditarClientes />} />
+            <Route path=':id' element={<VerCliente />} />
 
           </Route>
         </Routes>

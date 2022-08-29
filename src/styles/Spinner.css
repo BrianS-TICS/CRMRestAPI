@@ -1,0 +1,16 @@
+.spinner {
+    margin: 0 auto;
+    margin-top: 30%;
+
+    width: 8.8px;
+    height: 8.8px;
+    animation: spinner-xp626r 1s infinite;
+    border-radius: 50%;
+    box-shadow: 35.2px 0 0 8.8px #1e3a8a, -35.2px 0 0 8.8px #1e3a8a;
+}
+
+@keyframes spinner-xp626r {
+    to {
+        transform: rotate(360deg);
+    }
+}
