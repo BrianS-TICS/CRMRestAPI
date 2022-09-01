@@ -9,20 +9,12 @@
       "id": 1
     },
     {
-      "nombre": "Jopse",
-      "empresa": "Colob2",
-      "email": "Jopse@gmail.com",
-      "telefono": "2132421",
-      "notas": "Cualquier cosa23123",
-      "id": 2
-    },
-    {
-      "nombre": "Casas",
+      "nombre": "Josue",
       "empresa": "Linkedin",
-      "email": "briansanchezaguilar@gmail.com",
-      "telefono": "66744222",
-      "notas": "",
-      "id": 3
+      "email": "Bkra@gmail.com",
+      "telefono": "667402322",
+      "notas": "Alto capo de la magia\n",
+      "id": 4
     }
   ]
 }

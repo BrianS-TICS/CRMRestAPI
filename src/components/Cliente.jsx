@@ -1,7 +1,7 @@
 import React from 'react'
-import {useNavigate} from 'react-router-dom'
+import {Navigate, useNavigate} from 'react-router-dom'
 
-const Cliente = ({cliente}) => {
+const Cliente = ({cliente, hanldeEliminar}) => {
     const { nombre, empresa, email, telefono, notas, id} = cliente;
     const navegate = useNavigate();
 
@@ -24,13 +24,13 @@ const Cliente = ({cliente}) => {
 
                 <button
                     className='bg-blue-400 block w-full py-2 mb-2 text-white font-bold cursor-pointer rounded-sm hover:bg-blue-500' 
-                    type='button'>
+                    type='button' onClick={ () => navegate(`/clientes/editar/${id}`)} >
                     Editar
                 </button>
 
                 <button 
                     className='bg-red-400 block w-full py-2 text-white font-bold cursor-pointer rounded-sm hover:bg-red-500' 
-                    type='button'>
+                    type='button' onClick={() => hanldeEliminar(id)}>
                     Eliminar
                 </button>
             </td>

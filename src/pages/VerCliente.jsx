@@ -5,8 +5,7 @@ import Spinner from '../components/Spinner'
 const VerCliente = () => {
 
     const { id } = useParams()
-    console.log(id);
-
+    
     const [cliente, setCliente] = useState([]);
     const [cargando, setCargando] = useState(false)
 
@@ -27,7 +26,7 @@ const VerCliente = () => {
 
             setTimeout(() => {
                 setCargando(false)
-            }, 1000);
+            }, 100);
         }
         obtenerClienteAPI();
     }, [])

@@ -21,7 +21,7 @@ function App() {
             <Route path='nuevo' element={<NuevoCliente />} />
 
             //* :id = sirve como placeholder y escuchar por cada dato a colocar
-            <Route path='editar:id' element={<EditarClientes />} />
+            <Route path='editar/:id' element={<EditarClientes />} />
             <Route path=':id' element={<VerCliente />} />
 
           </Route>
