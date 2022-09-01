@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import Layout from './layouts/Layout'
 
 import Inicio from './pages/Inicio';
@@ -14,6 +14,12 @@ function App() {
     <div className="bg-slate-200">
       <BrowserRouter>
         <Routes>
+          {/* Redirecciono a clientes al entrar a pagina principal */}
+          <Route path='/'
+            element={
+              <Navigate to="/clientes" replace={true} />
+            }
+          />
           <Route path='/clientes' element={<Layout />}> //* Grupo de rutas
 
             //* Rutas individuales

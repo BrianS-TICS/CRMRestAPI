@@ -1,7 +1,7 @@
 {
   "clientes": [
     {
-      "nombre": "Brian",
+      "nombre": "Brian act",
       "empresa": "Colob",
       "email": "Brian@gmail.com",
       "telefono": "6674422224",
@@ -15,6 +15,14 @@
       "telefono": "667402322",
       "notas": "Alto capo de la magia\n",
       "id": 4
+    },
+    {
+      "nombre": "Periodico",
+      "empresa": "Colob",
+      "email": "Brian@gmail.com",
+      "telefono": "22222",
+      "notas": "",
+      "id": 5
     }
   ]
 }
